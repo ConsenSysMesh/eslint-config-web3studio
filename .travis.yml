@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - '8'
+branches:
+  only:
+    - master
+deploy:
+  provider: npm
+  email: barlockm@gmail.com
+  api_key:
+    secure: UrRKJhYIb86Ygq5i/yTd/OiU/vObGLtisclhANCqRGpARTWQ6lWiYUehP2YwGdUntcEnByeLS8dS8LlMYY4OOZL6aq9YDRJLEFtoeNumIVFtb+F+6yFex9mwgEcTY0gfwlipp4VYIHBUaoMKROHRfKc2C/4UKHLq+9+Al98yavPjK4SEg/lHdAjWtRjTZUD35daqNwiegyzP6JF25D/uMUiWW9J1ZcaiqRb4uKqfdt66G2lc81zw+waQNVl9le63kq5xV25K6MFT1JY7UQgi/8jp15flXdUNvZLN85Z00lP29a+PeXFjk6Oms+fs7NhHf7WMFx6Hcwtv07N5dXsjZlhOZKZ1Lf6Q+XkP1shydLO5e4MRHSLmqZI17/iCXVL7K99QdjN+qFqHEnr0rgm7PMQt8cHlaanrPjNyqm9HadNXPkUBWcsKpXR4EuHJH9kgb5bHVF+pWkbXVMRe1c70XKH1AI0K3MCeCo94S2OIYAhmpP2YJCqOQepNxzgXrPV/2fkL0MfgBE0ltVPbrqQv3SAW963TK0yNi+KPyOzObYJOBU0SwCkqNwXOuO3/W9irFbQSrP60Ru8q33goAPWq6t+Rt9TonEzahlNYQ0M+6oKtjQUNQjeW5IaP7ozNg8ECsaHYAM1CURhuEPdwlkwL+KVIzm6SvhR2zyaLS1k+sgk=
+  on:
+    tags: true
+    repo: ConsenSys/eslint-config-web3studio

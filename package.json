@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-web3studio",
+  "version": "1.0.0",
+  "description": "Web3Studio JS config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier \"**/*.{js,json,css,md}\" --write",
+    "test": "yarn lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConsenSys/eslint-config-web3studio.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "prettier"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConsenSys/eslint-config-web3studio/issues"
+  },
+  "homepage": "https://github.com/ConsenSys/eslint-config-web3studio#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-jsdoc": "^3.9.1",
+    "eslint-plugin-prettier": "^3.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0",
+    "prettier": ">=1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "husky": "^1.2.0",
+    "prettier": "^1.15.2",
+    "pretty-quick": "^1.8.0"
+  }
+}
