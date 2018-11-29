@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-web3studio",
   "version": "1.0.0",
-  "description": "Web3Studio JS config",
+  "description": "Web3Studio eslint config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -18,7 +18,7 @@
     "prettier"
   ],
   "author": "",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/ConsenSys/eslint-config-web3studio/issues"
   },
