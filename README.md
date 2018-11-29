@@ -12,7 +12,10 @@ In your `.eslintrc.js` file:
 
 ```js
 module.exports = {
-  extends: ['web3studio']
+  extends: [
+    'web3studio',
+    'web3studio/truffle' // For projects using truffle
+  ]
 };
 ```
 

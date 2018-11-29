@@ -3,10 +3,12 @@ module.exports = {
     es6: true,
     node: true,
     browser: true,
-    jest: true,
-    mocha: true
+    jest: true
   },
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  parserOptions: {
+    ecmaVersion: 8
+  },
   plugins: ['jsdoc'],
   rules: {
     'no-var': 'error',
