@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-web3studio",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Web3Studio eslint config",
   "main": "index.js",
   "scripts": {
